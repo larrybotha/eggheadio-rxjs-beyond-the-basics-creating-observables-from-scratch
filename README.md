@@ -15,3 +15,8 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 02
     ```
+3. [Push values from Observables](./03/index.js)
+
+    ```bash
+    $ nodemon 03
+    ```
