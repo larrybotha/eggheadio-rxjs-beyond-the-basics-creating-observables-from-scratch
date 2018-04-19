@@ -1,0 +1,27 @@
+{
+  "name": "eggheadio-rxjs-beyond-the-basics-creating-observables-from-scratch",
+  "version": "1.0.0",
+  "description": "Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-creating-observables-from-scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrybotha/eggheadio-rxjs-beyond-the-basics-creating-observables-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larrybotha/eggheadio-rxjs-beyond-the-basics-creating-observables-from-scratch/issues"
+  },
+  "homepage": "https://github.com/larrybotha/eggheadio-rxjs-beyond-the-basics-creating-observables-from-scratch#readme",
+  "dependencies": {
+    "rxjs": "^5.5.10"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "nodemon": "^1.17.3"
+  }
+}
