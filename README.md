@@ -59,7 +59,7 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 05
     ```
-6. [Deliver syncrhonous values with the `of` operator](./06/index.js)
+6. [Deliver synchronous values with the `of` operator](./06/index.js)
 
     Takeaways:
 
