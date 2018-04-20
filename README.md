@@ -29,3 +29,16 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 03
     ```
+4. [Throw errors with Observables](./04/index.js)
+
+    Takeaways:
+
+    A subscriber has 3 callbacks, of which the second is on `onError` callback
+    allowing one to handle exceptions not caught inside the Observable.
+
+    If you have control over the Observable, then you can use a try-catch block
+    inside the Observable.
+
+    ```bash
+    $ nodemon 04
+    ```
