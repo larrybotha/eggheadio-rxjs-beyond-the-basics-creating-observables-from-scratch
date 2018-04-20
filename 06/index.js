@@ -10,12 +10,9 @@ const bar = Rx.Observable.create(observer => {
     observer.next(200);
     observer.next(300);
 
-    // manually stop the Observable emitting any results by calling complete
-    observer.complete();
-
     setTimeout(() => {
-      // this won't be emitted because our Observable is considered 'complete'
       observer.next(400);
+      observer.complete();
     }, 500);
   } catch (e) {
     observer.error(new Error(err));
