@@ -10,7 +10,11 @@ const bar = Rx.Observable.create(observer => {
     observer.next(200);
     observer.next(300);
 
+    // manually stop the Observable emitting any results by calling complete
+    observer.complete();
+
     setTimeout(() => {
+      // this won't be emitted because our Observable is considered 'complete'
       observer.next(400);
     }, 500);
   } catch (e) {
@@ -23,7 +27,10 @@ bar.subscribe(
     log('from observable', x);
   },
   function onError(e) {
-    console.log('something wrong inside Observable', e);
+    log('something wrong inside Observable', e);
+  },
+  function onComplete() {
+    log('done');
   }
 );
 log('\n');
