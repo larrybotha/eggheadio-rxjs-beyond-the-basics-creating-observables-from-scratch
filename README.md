@@ -42,3 +42,8 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 04
     ```
+5. [Perform an action on completion](./05/index.js)
+
+    ```bash
+    $ nodemon 05
+    ```
