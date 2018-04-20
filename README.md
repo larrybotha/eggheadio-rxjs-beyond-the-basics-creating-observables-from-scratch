@@ -29,3 +29,8 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 03
     ```
+4. [Throw errors with Observables](./04/index.js)
+
+    ```bash
+    $ nodemon 04
+    ```
