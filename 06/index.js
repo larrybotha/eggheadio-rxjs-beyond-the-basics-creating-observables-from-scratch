@@ -2,22 +2,15 @@ const Rx = require('rxjs');
 
 const log = (...args) => console.log(args.join());
 
-const bar = Rx.Observable.create(observer => {
-  try {
-    log('Hello');
-    observer.next(42);
-    observer.next(100);
-    observer.next(200);
-    observer.next(300);
+// Instead of manually creating the Observable, like this...
+// const bar = Rx.Observable.create(observer => {
+//   observer.next(42);
+//   observer.next(100);
+//   observer.next(200);
+// });
 
-    setTimeout(() => {
-      observer.next(400);
-      observer.complete();
-    }, 500);
-  } catch (e) {
-    observer.error(new Error(err));
-  }
-});
+// we can use a creation operator:
+const bar = Rx.Observable.of(42, 100, 200);
 
 bar.subscribe(
   function onNext(x) {
