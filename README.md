@@ -42,3 +42,20 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 04
     ```
+5. [Perform an action on completion](./05/index.js)
+
+    Takeaways:
+
+    An Observable can be made to stop emitting events by executing its
+    `complete` instance method. This is important if one Observable needs to
+    take over from another, and is waiting for a _last_ event.
+
+    All an Observable can do is:
+
+    1. deliver values
+    2. deliver errors
+    3. notify completion
+
+    ```bash
+    $ nodemon 05
+    ```
