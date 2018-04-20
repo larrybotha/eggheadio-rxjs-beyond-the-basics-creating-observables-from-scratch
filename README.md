@@ -63,6 +63,9 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
 
     Takeaways:
 
+    `Observable.of` is a creation operator allowing one to create an Observable
+    from a list of values.
+
     ```bash
     $ nodemon 06
     ```
