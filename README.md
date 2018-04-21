@@ -73,6 +73,12 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
 
     Takeaways:
 
+    `Rx.Observable.from` can be used to create Observables from arrays,
+    Promises, and iterators.
+
+    Converting an iterator into an Observable changes the strategy from pull to
+    push.
+
     ```bash
     $ nodemon 07
     ```
