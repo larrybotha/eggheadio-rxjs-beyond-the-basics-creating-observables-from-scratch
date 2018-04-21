@@ -86,6 +86,11 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
 
     Takeaways:
 
+    `Rx.Observable.fromEventPattern` can be used to create Observables from both
+    DOM events and Node event streams.
+
+    `Rx.Observable.fromEvent` is excusively for DOM events.
+
     ```bash
-    $ nodemon 07
+    $ npx live-server 08
     ```
