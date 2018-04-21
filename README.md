@@ -69,3 +69,10 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 06
     ```
+7. [Convert Javascript values to Observables](./07/index.js)
+
+    Takeaways:
+
+    ```bash
+    $ nodemon 07
+    ```
