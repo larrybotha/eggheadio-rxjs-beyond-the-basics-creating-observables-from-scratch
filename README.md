@@ -82,3 +82,10 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 07
     ```
+8. [Convert DOM and Node.js streams to Observable with `fromEvent`](./08/index.js)
+
+    Takeaways:
+
+    ```bash
+    $ nodemon 07
+    ```
