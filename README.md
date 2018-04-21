@@ -82,3 +82,15 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 07
     ```
+8. [Convert DOM and Node.js streams to Observable with `fromEvent`](./08/index.js)
+
+    Takeaways:
+
+    `Rx.Observable.fromEventPattern` can be used to create Observables from both
+    DOM events and Node event streams.
+
+    `Rx.Observable.fromEvent` is excusively for DOM events.
+
+    ```bash
+    $ npx live-server 08
+    ```
