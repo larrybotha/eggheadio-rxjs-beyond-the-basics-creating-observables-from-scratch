@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/larrybotha/eggheadio-rxjs-beyond-the-basics-creating-observables-from-scratch#readme",
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "rxjs": "^5.5.10"
   },
   "devDependencies": {

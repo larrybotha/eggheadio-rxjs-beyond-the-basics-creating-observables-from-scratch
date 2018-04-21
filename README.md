@@ -69,3 +69,16 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 06
     ```
+7. [Convert Javascript values to Observables](./07/index.js)
+
+    Takeaways:
+
+    `Rx.Observable.from` can be used to create Observables from arrays,
+    Promises, and iterators.
+
+    Converting an iterator into an Observable changes the strategy from pull to
+    push.
+
+    ```bash
+    $ nodemon 07
+    ```
