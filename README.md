@@ -118,8 +118,6 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```
 11. [Understand the create operator](./11/index.js)
 
-    Takeaways:
-
     ```bash
     $ nodemon 11
     ```
