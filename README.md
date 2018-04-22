@@ -94,3 +94,13 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ npx live-server 08
     ```
+9. [Combine empty, never, and throw operators with Observables](./09/index.js)
+
+    Takeaways:
+
+    `empty`, `never`, and `throw` are convenience functions for creating useful
+    Observables without having to use `Rx.Observable.create`.
+
+    ```bash
+    $ nodemon 09
+    ```
