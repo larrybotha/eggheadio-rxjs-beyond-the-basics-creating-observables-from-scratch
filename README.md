@@ -104,3 +104,10 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 09
     ```
+10. [Intervals with interval and timer operators](./10/index.js)
+
+    Takeaways:
+
+    ```bash
+    $ nodemon 10
+    ```
