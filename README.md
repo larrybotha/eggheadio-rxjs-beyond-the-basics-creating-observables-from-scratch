@@ -104,3 +104,15 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 09
     ```
+10. [Intervals with interval and timer operators](./10/index.js)
+
+    Takeaways:
+
+    `interval` emits an event every n milliseconds.
+
+    `timer` waits for a specified amount of time before emitting an event every
+    n milliseconds.
+
+    ```bash
+    $ nodemon 10
+    ```
