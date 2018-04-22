@@ -121,3 +121,13 @@ Learning and annotations from https://egghead.io/courses/rxjs-beyond-the-basics-
     ```bash
     $ nodemon 11
     ```
+12. [Return subscriptions from the subscribe function](./12/index.js)
+
+    Takeaways:
+
+    Subscribing to an Observable returns an object which allows for
+    unsubscribing from the Observable.
+
+    ```bash
+    $ nodemon 12
+    ```
